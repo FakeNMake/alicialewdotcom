@@ -1,0 +1,187 @@
+body{
+  background-color: #697E84;
+  color: #ffffff;
+  padding-left: 35%;
+
+}
+
+#profile-img{
+  width: 200px;
+  height: 200px;
+  margin: 100px 50px 70px 100px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+#contact{
+ padding-top: 50px;
+}
+
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+a:hover, button:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+table{
+  padding: 50px;
+  width: 400px;
+}
+
+th{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+  font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+  padding-bottom: 40px;
+}
+
+#name{
+  width: 150px;
+}
+
+td, button{
+  font-size: 15px;
+  font-family: "helvetica";
+  font-weight: 100;
+  padding: 1px;
+  line-height: 25px;
+  background: none;
+  color: #ffffff;
+  border-style: none;
+}
+
+p{
+  color: #333333;
+  font-size: 15px;
+  font-family: "helvetica";
+  font-weight: 100;
+  line-height: 25px;
+}
+
+.adjectives{
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 83px;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+header{
+  color: #294952;
+    font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 50px;
+    border: 1px solid #888;
+    line-height: 100px;
+    width: 45%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    font-size: 20px;
+    text-align: center;
+    font-family: "helvetica";
+
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* iPad in Portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+{
+  body{
+    padding-left: 20%;
+  }
+}
+
+
+/* iPad in Landscape */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape)
+{
+  body{
+    padding-left: 0px;
+  }
+}
+
+/* iPad in Portrait */
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait)
+{
+  body{
+    padding-left: 20%;
+  }
+}
+
+
+/* Your stuff */
+
+
+@media (min-width: 1900px){
+
+body{
+  padding-left: 40%;
+}
+
+}
+
+@media screen and (max-width: 1024px)
+{
+  body{
+    padding-left: 0px;
+    
+  }
+
+  .modal-content{
+    width: auto;
+    margin: 0px;
+  }
+  header{
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
